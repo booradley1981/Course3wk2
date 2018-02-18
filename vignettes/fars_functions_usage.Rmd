@@ -1,0 +1,27 @@
+---
+title: "Using Fars functions"
+author: "J Maghirang"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using fars functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is documentation the package Course3wk2 for using functions to analyze Fatality Analysis Reporting System [fars] data.  This package was created for the Building R Packages Coursera Course.   
+
+The package reads in data from files for specified years.  You can get either a summary of counts or a graphic map of accident locations.
+
+Use fars_summarize_years(year(s)) to get a count summary
+
+Use fars_map_state(state#,year) to get a map of accident locations
+
+
