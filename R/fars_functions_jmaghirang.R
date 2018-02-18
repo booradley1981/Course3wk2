@@ -3,6 +3,7 @@
 # February 4, 2018
 # Jude Maghirang
 
+install.packages("dplyr")
 library(dplyr)
 
 #' Read fars data file
