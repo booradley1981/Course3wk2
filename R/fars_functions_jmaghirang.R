@@ -3,6 +3,8 @@
 # February 4, 2018
 # Jude Maghirang
 
+library(dplyr)
+
 #' Read fars data file
 #'
 #' @param filename is a string representing the name of the data file

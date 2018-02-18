@@ -1,4 +1,5 @@
 # test the make_filename helper function
+library(testthat)
 
 test_that("make_file",{
   fnstr <- make_filename(2013)
