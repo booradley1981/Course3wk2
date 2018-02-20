@@ -1,8 +1,8 @@
 Package: Course3wk2
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Package Course3wk2 for using functions to analyze Fatality Analysis Reporting System [fars] data.  This package was created for the Building R Packages Coursera Course. 
 Version: 0.1.0
-Author: Who wrote it
+Author: Jude Maghiang
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
@@ -12,5 +12,8 @@ LazyData: true
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
-    testthat
+    testthat,
+    readr,
+    dplyr,
+    tidyr
 VignetteBuilder: knitr
