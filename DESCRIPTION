@@ -1,5 +1,11 @@
 Package: Course3wk2
 Type: Package
+Imports: knitr,
+    rmarkdown,
+    testthat,
+    readr,
+    dplyr,
+    tidyr
 Title: Package Course3wk2 for using functions to analyze Fatality Analysis Reporting System [fars] data.  This package was created for the Building R Packages Coursera Course. 
 Version: 0.1.0
 Author: Jude Maghiang
