@@ -18,7 +18,7 @@ if year is invalid (no existing file) returns warning
 Read individual files (each year)
 }
 \examples{
-\\donotrun{
+\dontrun{
  fars_read_years (2013)
  fars_read_years (2013:2015)
  fars_read_years (c(2013,2015))

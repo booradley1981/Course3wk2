@@ -18,5 +18,5 @@ if filename input is not found, returns error message file does not exist
 Read fars data file
 }
 \examples{
-\\donotrun{ fars_read("accident_2013.csv.bz2") }
+\dontrun{ fars_read("accident_2013.csv.bz2") }
 }

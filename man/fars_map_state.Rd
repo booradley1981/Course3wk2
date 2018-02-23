@@ -20,7 +20,7 @@ if state number or file corresponding to year does not exist
 Create a state map
 }
 \examples{
-\\donotrun{ fars_map_state(1,2013)
+\dontrun{ fars_map_state(1,2013)
 fars_map_state(4,2015)
 }
 }
