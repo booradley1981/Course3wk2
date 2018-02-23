@@ -26,7 +26,7 @@ fars_read <- function(filename) {
 #'
 #' @param year is an integer representing year
 #' @return string representing a filename
-#' @examples make_filename(2013)
+#' @examples \dontrun{ make_filename(2013) }
 
 make_filename <- function(year) {
   year <- as.integer(year)

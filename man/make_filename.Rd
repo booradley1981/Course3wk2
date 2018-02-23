@@ -16,5 +16,5 @@ string representing a filename
 Build filename
 }
 \examples{
-make_filename(2013)
+\dontrun{ make_filename(2013) }
 }
