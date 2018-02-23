@@ -66,10 +66,10 @@ fars_read_years <- function(years) {
 #'
 #' @param years is an integer or list or vector representing year(s)
 #' @return data frame containing a row for each month and columns with counts for each year
-#'
-#' @examples \dontrun { fars_read_years (2013)
-#' fars_read_years (2013:2015)
-#' fars_read_years (c(2013,2015))
+#' @examples \dontrun{
+#' fars_summarize_years(2013)
+#' fars_summarize_years(2013:2015)
+#' fars_summarize_years(c(2013,2015))
 #' }
 #' @importFrom dplyr bind_rows
 #' @importFrom dplyr group_by
@@ -87,7 +87,8 @@ fars_summarize_years <- function(years) {
 #'
 #' @param state.num State number code
 #' @param year Year of data file
-#' @examples \dontrun{ fars_map_state(1,2013)
+#' @examples \dontrun{
+#' fars_map_state(1,2013)
 #' fars_map_state(4,2015)
 #' }
 #' @return plot of map

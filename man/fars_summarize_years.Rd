@@ -16,8 +16,9 @@ data frame containing a row for each month and columns with counts for each year
 Summarize year file
 }
 \examples{
-\dontrun { fars_read_years (2013)
-fars_read_years (2013:2015)
-fars_read_years (c(2013,2015))
+\dontrun{
+fars_summarize_years(2013)
+fars_summarize_years(2013:2015)
+fars_summarize_years(c(2013,2015))
 }
 }
