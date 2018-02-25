@@ -18,10 +18,29 @@ knitr::opts_chunk$set(
 
 This is documentation the package Course3wk2 for using functions to analyze Fatality Analysis Reporting System [fars] data.  This package was created for the Building R Packages Coursera Course.   
 
-The package reads in data from files for specified years.  You can get either a summary of counts or a graphic map of accident locations.
 
-Use fars_summarize_years(year(s)) to get a count summary
+## Read data files
+Read data files using the fars_read_years function.  This function returns a tibble for the specified year(s) data.
+Example usage:
 
-Use fars_map_state(state#,year) to get a map of accident locations
+`fars_read_years (2013)`
 
+`fars_read_years (2013:2015)`
+
+`fars_read_years (c(2013,2015))`
+
+## Summarize data
+Use the fars_summarize_years to get a count summary. 
+Example usage:
+
+` fars_summarize_years (2013:2015)`
+
+## Create a geographic map plot
+Use fars_map_state function to get a map of accident locations.  Parameters: 
+  1. state code
+  2. year(s)
+  
+Example usage :
+
+`fars_map_state(1,2013)`
 
