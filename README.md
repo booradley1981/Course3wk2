@@ -12,3 +12,4 @@ You can install Course3wk2 from github with:
 devtools::install_github("booradley1981/Coursera_create_package_class")
 ```
 
+[![Build Status](https://travis-ci.org/booradley1981/Course3wk2.svg?branch=master)](https://travis-ci.org/booradley1981/Course3wk2)
